@@ -78,7 +78,7 @@
         function getTables() {
             $("#tablecard").empty();
             $.ajax({ url: "api/tables", method: "GET", }).then(function (tdata) {
-                //console.log(tdata);
+            
 
                 for (let i = 0; i < tdata.length; i++) {
                     var itemobj =
