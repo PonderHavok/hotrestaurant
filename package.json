@@ -1,24 +1,25 @@
 {
-  "name": "HotRestaurant",
+  "name": "hotrestaurant",
   "version": "1.0.0",
-  "description": "Hot Restaurant App",
+  "description": "K&JEatery",
   "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\",",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PonderHavok/hotrestaurant"
+    "url": "git+https://github.com/PonderHavok/hotrestaurant.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Restaurant"
+  ],
+  "author": "Kanasia and Jonny",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PonderHavok/hotrestaurant"
+    "url": "https://github.com/PonderHavok/hotrestaurant/issues"
   },
-  "homepage": "https://github.com/PonderHavok/hotrestaurant",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/PonderHavok/hotrestaurant#readme"
 }
