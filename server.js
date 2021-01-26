@@ -87,6 +87,7 @@ app.post("/api/tables", function (req, res) {
     res.send("waitlist");
   }
 });
+
 app.listen(PORT, function () {
   console.log(`Listening on Port ${PORT}`);
 });
